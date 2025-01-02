@@ -3,6 +3,7 @@
 snmpd_config: true
 snmpd_enable: true
 snmpd_trap: false
+snmpd_conf_tempalte: "snmpd.conf.j2"
 
 # Define read-only snmpd settings
 snmpd_authorized_networks: []

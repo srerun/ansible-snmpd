@@ -1,7 +1,7 @@
 ---
 - name: config | copying snmpd config
   template:
-    src: "snmpd.conf.j2"
+    src: "{{ snmpd_conf_template }}"
     dest: "/etc/snmp/snmpd.conf"
     owner: "root"
     group: "root"
